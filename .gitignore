@@ -1,0 +1,24 @@
+# .NET build output
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio / Rider
+.vs/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local test artefacts
+*.stderr.log
+*.stdout.log
+
+# Claude local settings (agent per-machine)
+.claude/settings.local.json
